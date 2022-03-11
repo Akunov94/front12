@@ -12,7 +12,7 @@ let age = 15; // type number
 // let number = 5n; // type BigInt
 let bool = false; // boolean
 let bool2 = true; // boolean
-let nuLL = null;// type obj
+let nuLL = null; // type obj
 let undefineD = undefined;
 // let symbol = Symbol('a')
 // alert('Hello my name is ' + name);
@@ -80,13 +80,16 @@ switch (size.toUpperCase()) {
 	case 'S':
 		console.log('заказ на размер ' + size);
 		break;
-	case 'S':
+	case 'L':
 		console.log('заказ на размер ' + size);
 		break;
-	case 'S':
+	case 'M':
 		console.log('заказ на размер ' + size);
 		break;
-	case 'S':
+	case 'XL':
+		console.log('заказ на размер ' + size);
+		break;
+	case 'XXL':
 		console.log('заказ на размер ' + size);
 		break;
 }
