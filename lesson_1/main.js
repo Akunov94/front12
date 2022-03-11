@@ -99,7 +99,7 @@ function get(name) {}
 get('test');
 
 /*
-#stream https://youtu.be/TjATSt_EQDI
+
 #hm
 1 Создать переменную year присвоить текущий год 
 Создать переменную myYear и присвоить ваш год рождение. 
