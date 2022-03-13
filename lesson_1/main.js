@@ -115,3 +115,20 @@ get('test');
 иначе alert('Привет незнакомец'). 
 Решите задачу используя confirm
 */
+
+//есть массив из объектов
+const developers = [
+	{ name: 'Alex 1', salary: 55000 },
+	{ name: 'Alex 2', salary: 45000 },
+	{ name: 'Alex 3', salary: 35000 },
+	{ name: 'Alex 4', salary: 25000 },
+];
+//обходим через цикл for
+for (let i = 0; i < developers.length; i++) {
+	//и проверяем Alex 4
+	if (developers[i].name === 'Alex 4') {
+		//если найдено то печатаем имя и зарплату
+		console.log(developers[i].name);
+		console.log(developers[i].salary);
+	}
+}
