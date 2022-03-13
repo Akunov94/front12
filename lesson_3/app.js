@@ -85,6 +85,10 @@ const showAlert = () => {
 };
 showAlert();
 
+const showAlert2 = () => alert(`I'm Arrow Function`);
+
+showAlert2();
+
 const sum4 = (num1, num2) => num1 + num2;
 sum4(4, 8); //function
 
