@@ -1,5 +1,5 @@
 // function someName(){ тело  функции }
-//сигнатура
+//сигнатура функции
 function someName() {
 	console.log('test');
 }
