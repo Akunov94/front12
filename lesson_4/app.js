@@ -96,3 +96,12 @@ function showWeb(e) {
 btnShowDiv.onclick = () => {
 	removeDiv.hidden = false;
 };
+
+let text = 'World';
+
+function hiText() {
+	alert(`Hello ${text}`);
+}
+text = 'JS';
+
+hiText();
