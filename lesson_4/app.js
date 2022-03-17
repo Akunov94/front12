@@ -2,10 +2,9 @@
 //SELECTOR  . # html tags
 // let div = document.getElementById('div'); // get by id
 // let p = document.getElementsByTagName('p'); // get by tag
-// let p = document.getElementsByClassName('p-text'); // get by tag
-// let p = document.querySelector('.p-text'); // get by selector class
+// let p = document.getElementsByClassName('p-text'); // get by className
+// let p = document.querySelector('.p-text'); // get by selector className
 // let p = document.querySelector('p'); // get by selector class
-// let p = document.querySelectorAll('p'); // get by selector tag ALL
 // const el = document.querySelector("[type='text']");// get by attribute type
 // let p = document.querySelectorAll('p'); // get by selector tag ALL
 // console.log('p: ', (p.innerText = 'Hello'));
@@ -29,16 +28,15 @@
 // document.body.append(newDiv);
 /* 
 Events
- click,
-  change , 
-  submit, 
-  focus,
-   scroll ,
-   input, 
-   keydown,
+    click,
+    change , 
+    submit, 
+    focus,
+    scroll ,
+    input, 
+    keydown,
     keypress, 
     keyup,
-    
 */
 // const inputEmail = document.querySelector('.email');
 // const inputPassword = document.querySelector('.pass');
@@ -62,7 +60,7 @@ Events
 // // buttonGet.addEventListener('click', () => {
 // // 	getValue();
 // // });
-
+// COLOR FLIPPER
 const pEl = document.querySelector('.p-text');
 const btnShowDiv = document.querySelector('button');
 const btnChange = document.querySelector('.btn');
