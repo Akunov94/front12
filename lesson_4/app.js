@@ -84,8 +84,8 @@ let c = 0;
 function showWeb(e) {
 	c++;
 	let red = getHexNum(getRandomNum(0, 255));
-	let blue = getHexNum(getRandomNum(0, 255));
 	let green = getHexNum(getRandomNum(0, 255));
+	let blue = getHexNum(getRandomNum(0, 255));
 	let hex = `#${red}${blue}${green}`;
 	console.log('hex: ', hex);
 	document.body.style.background = hex;
@@ -96,12 +96,3 @@ function showWeb(e) {
 btnShowDiv.onclick = () => {
 	removeDiv.hidden = false;
 };
-
-let text = 'World';
-
-function hiText() {
-	alert(`Hello ${text}`);
-}
-text = 'JS';
-
-hiText();
