@@ -1,0 +1,15 @@
+.p-text {
+	/* selector class (.) */
+}
+#div {
+	/* selector id (#) */
+}
+
+div {
+	/* selector tag (div) */
+}
+
+.active {
+	color: red;
+	font-size: 46px;
+}

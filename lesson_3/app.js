@@ -1,99 +1,101 @@
-// function someName(){ тело  функции }
-//сигнатура функции
-function someName() {
-	console.log('test');
-}
+// // function someName(){ тело  функции }
+// //сигнатура функции
+// function someName() {
+// 	console.log('test');
+// }
+// let n = 5;
+// printElement(1, 2, 3, 4);
 
-printElement(1, 2, 3, 4);
+// someName();
+// //function declarations
+// // parameters
+// // function add
+// function sum(num1, num2) {
+// 	console.log(num1 + num2);
+// }
+// sum(3, 5);
+// // функция умножения
+// function multiply(num1, num2) {
+// 	console.log(num1 * num2);
+// }
+// multiply(5, 5);
+// //function division
+// function division(num1, num2) {
+// 	console.log(num1 / num2);
+// }
+// division(50, 2);
+// // return value
+// function returnValue(a, b) {
+// 	let result = a + b;
+// 	// return 'sum ' + ' ' + a + ' ' + 'и' + ' ' + b + ' = ' + sum;
+// 	return `sum ${a} и ${b} = ${result}`;
+// }
 
-someName();
-//function declarations
-// parameters
-// function add
-function sum(num1, num2) {
-	console.log(num1 + num2);
-}
-sum(3, 5);
+// let res = returnValue(8, 8);
+// console.log('res: ', res);
+// //function expression
+// let sum2 = function (num1, num2) {
+// 	console.log(num1 + num2);
+// };
 
-// функция умножения
-function multiply(num1, num2) {
-	console.log(num1 * num2);
-}
-multiply(5, 5);
-//function division
-function division(num1, num2) {
-	console.log(num1 / num2);
-}
-division(50, 2);
-// return value
-function returnValue(a, b) {
-	let sum = a + b;
-	// return 'sum ' + ' ' + a + ' ' + 'и' + ' ' + b + ' = ' + sum;
-	return `sum ${a} и ${b} = ${sum}`;
-}
+// sum2(5, 4);
+// sum2(5, 55);
+// sum2(5, 44);
+// //function  declarations arguments, hoisting
+// function printElement() {
+// 	console.log(arguments);
+// }
+// // function expression not arguments, not hoisting
+// let printElement2 = () => {
+// 	console.log('expression 1');
+// };
 
-let res = returnValue(8, 8);
-console.log('res: ', res);
-//function expression
-let sum2 = function (num1, num2) {
-	console.log(num1 + num2);
-};
+// printElement2();
 
-sum2(5, 4);
-sum2(5, 55);
-sum2(5, 44);
-//function  declarations arguments, hoisting
-function printElement() {
-	console.log(arguments);
-}
-// function expression not arguments, not hoisting
-let printElement2 = () => {
-	console.log('expression 1');
-};
+// function callFunction(callbackFn) {
+// 	let message = 'msg from CallbackFn';
+// 	callbackFn(message); //msg from CallbackFn
+// }
 
-printElement2();
+// function getMessage(txt) {
+// 	//txt = msg from CallbackFn
+// 	console.log(txt);
+// }
+// callFunction(getMessage); //2
+// // callFunction(function(){});// 1
 
-function callFunction(callbackFn) {
-	let message = 'msg from CallbackFn';
-	callbackFn(message); //msg from CallbackFn
-}
+// function getSum(addSum) {
+// 	let result = 5 + 5;
+// 	addSum(result);
+// }
 
-function getMessage(txt) {
-	//txt = msg from CallbackFn
-	console.log(txt);
-}
-callFunction(getMessage); //2
-// callFunction(function(){});// 1
+// function cbFun(text) {
+// 	console.log(text);
+// }
+// getSum(ttt => {
+// 	console.log('ttt: ', ttt);
+// });
 
-function getSum(addSum) {
-	let result = 5 + 5;
-	addSum(result);
-}
+// //Arrow Function
+// const showAlert = () => {
+// 	alert(`I'm Arrow Function`);
 
-function cbFun(text) {
-	console.log(text);
-}
-getSum(ttt => {
-	console.log('ttt: ', ttt);
-});
+// 	return;
+// };
+// showAlert();
 
-//Arrow Function
-const showAlert = () => {
-	alert(`I'm Arrow Function`);
+// const showAlert2 = () => alert(`I'm Arrow Function`);
 
-	return;
-};
-showAlert();
+// showAlert2();
 
-const showAlert2 = () => alert(`I'm Arrow Function`);
+// const sum4 = (num1, num2) => num1 + num2;
+// sum4(4, 8); //function
 
-showAlert2();
+// let numbers = [1, 2, 3, 4, 5, 6, 7];
 
-const sum4 = (num1, num2) => num1 + num2;
-sum4(4, 8); //function
+// numbers.forEach(num => {
+// 	console.log(n);
+// 	console.log('num: ', num);
+// });
 
-let numbers = [1, 2, 3, 4, 5, 6, 7];
-
-numbers.forEach(num => {
-	console.log('num: ', num);
-});
+console.log('Math.random() ', Math.floor(Math.random() * (10 - 1) + 1));
